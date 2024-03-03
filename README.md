@@ -15,7 +15,7 @@ https://github.com/baegwangbin/DSINE/raw/main/paper.pdf
 https://baegwangbin.github.io/DSINE/
 
 ### 🖼 Output
-
+![Screenshot 2024-03-03 183616](https://github.com/camenduru/DSINE-replicate/assets/54370274/ad30c669-f2e8-4709-9a12-8dea99ebf8ec)
 
 ### 🏢 Sponsor
 https://modelslab.com
