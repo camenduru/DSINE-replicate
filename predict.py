@@ -62,8 +62,8 @@ class Predictor(BasePredictor):
     def setup(self) -> None:
         from models.dsine import DSINE
         self.device = torch.device('cuda')
-        self.model = DSINE().to(device)
-        self.model.pixel_coords = model.pixel_coords.to(device)
+        self.model = DSINE().to(self.device)
+        self.model.pixel_coords = model.pixel_coords.to(self.device)
         self.model = utils.load_checkpoint('/content/DSINE/checkpoints/dsine.pt', model)
         self.model.eval()
     def predict(
